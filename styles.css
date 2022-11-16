@@ -22,23 +22,22 @@ h1 {
 
 h2 {
     font-weight: 700;
-    font-size: 2.6rem;
+    font-size: 2rem;
     line-height: 1.1;
 }
 
 p {
     font-weight: 400;
-    font-size:  1.2rem;
+    font-size:  1rem;
     margin-bottom: .9em;
     line-height: 1.5;
 }
 
 .container {
-    padding: 0 2em;
+  padding: 0 2em;
 }
 
 .content {
-    max-width: 500px;
     margin-top: 2em;
 }
 
@@ -48,7 +47,7 @@ p {
     color: white;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 2em;
+    padding: 1.3em 1.5em;
     transition: background-color 0.15s, color 0.15s, letter-spacing 0.15s;
 }
 
@@ -60,14 +59,14 @@ p {
 }
 
 .footer  p{
-    font-size: .8rem;
+    font-size: .5rem;
     text-align: center;
     margin-top: 4em;
 
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 923px) {
 
     h1 {
         font-size: 1.8rem;
@@ -92,10 +91,12 @@ p {
 
     .img {
         width: 32%; 
+        max-width: 600px;
     }
 
     .content {
         width: 62%;
+        max-width: 600px;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -111,7 +112,7 @@ p {
     .footer p  {
         font-size: 1.3rem;
         position: absolute;
-        bottom: 10px;
+        bottom: 5px;
         transform: translate(-50%, -50%);
         left: 50%;
 
